@@ -6,10 +6,15 @@
 ## package
 
 - drizzle-orm
-- @neondatabase/serverless
+- @vercel/postgres
 - tailwindcss-animate
 - drizzle-kit
+- prettier
+- prettier-plugin-tailwindcss
 
-## 数据库
+## drizzle migration
 
-- [neon](https://neon.tech)
+```bash
+pnpm drizzle-kit generate
+pnpm drizzle-kit migrate
+```
